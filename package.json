@@ -1,0 +1,42 @@
+{
+  "name": "generator-zk-component",
+  "version": "0.1.0",
+  "homepage": "https://www.zkoss.org",
+  "description": "ZK component generator",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Rudy Huang",
+    "email": "rudyhuang@potix.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkoss/generator-zk-component"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "zk",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.7.0",
+    "yeoman-assert": "^3.1.0",
+    "jest": "^24.8.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^2.0.1",
+    "chalk": "^2.1.0",
+    "yosay": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
