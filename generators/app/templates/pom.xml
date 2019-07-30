@@ -101,6 +101,11 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<excludes>
+						<exclude>*/ext/**</exclude>
+					</excludes>
+				</configuration>
 			</plugin>
 			<!-- Compile java -->
 			<plugin>
