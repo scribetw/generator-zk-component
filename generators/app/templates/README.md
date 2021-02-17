@@ -3,6 +3,7 @@
 ## Prerequisite
 * Java 8
 * Maven 3
+* Node.js v14.15.0
 
 # Run test app
 ```
